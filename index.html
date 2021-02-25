@@ -50,13 +50,18 @@
               <label for=mutation-ratio> <span class="name"> Mutation Ratio </span> <span class="value"> 0.4 </span></label>
               <input id="mutation-ratio" type="range" min="1" max="100" value="40" />
             </div>
+            <div class="upload-container">
+              <button class="btn bg-primary w-100"> Upload a file </button>
+              <input id="file" type="file"/>
+            </div>
             <div>
-              <button class="bg-success" onclick="run()"> Start </button>
-              <button class="bg-danger" onclick="stop()"> Stop </button>
+              <button class="bg-success" style="width:49%" onclick="run()"> Start </button>
+              <button class="bg-danger" style="width:49%" onclick="stop()"> Stop </button>
             </div>
           </div>
           <div>
             <img src="img/img_the_scream.jpg" id="scream" style="display:none">
+            <img id="upload-images" style="display:none">
             <div style="display:flex;">
               <canvas id='canvasArt' width="300" height="450" > </canvas>
               <canvas id='canvasImg' width="300" height="450" > </canvas>
