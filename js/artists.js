@@ -2,7 +2,7 @@ function GenerateColor () {
     const R = Math.floor(Math.random() * 255);
     const G = Math.floor(Math.random() * 255);
     const B = Math.floor(Math.random() * 255);
-    const A = Math.random();
+    const A = Math.random() * 0.3;
     return [R,G,B,A];
 }
 
