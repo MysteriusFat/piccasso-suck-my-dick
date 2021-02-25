@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== main things ==== */
+
+.bg-danger {
+  background-color: #dc3545;
+}
+.bg-light {
+  background-color: #f8f9fa;
+}
+.bg-warning {
+  background-color: #ffc107;
+}
+.bg-dark {
+  background-color: #343a40;
+}
+.bg-primary {
+  background-color: #007bff;
+}
+.bg-info {
+  background-color: #17a2b8;
+}
+.bg-success {
+  background-color: #28a745;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Lora', serif;
+  font-weight:200;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+span, p, a, li, label{
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 400 !important;
+  margin: 0px 0px;
+}
+
+.sub-title{
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight:300;
+  margin: 0px 0px;
+}
+
+button{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  color: white !important;
+}
+
+input {
+  width: 100%;
+}
+
+section {
+  margin: 20px 0px;
+  padding: 20px 20%;
+}
+
+/* ===== navbar ===== */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20%;
+  border-bottom: solid 1px #ddd;
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16;
+  color: #333333;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.active {
+  background-color: #0088a9;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.active a {
+  color: white;
+}
+
+header  nav ul li a {
+  transition: all 0.3s ease 0s;
+}
+
+header  nav ul li a:hover {
+  color: #0088a9;
+}
+
+/* ==== landing ===== */
+
+#landing {
+  text-align: center;
+}
+
+.title-container {
+  margin: 40px 0px;
+}
+
+.img-container img {
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+
+/* ==== application ==== */
+
+#application {
+  background-color: #f8f9fa;
+}
+
+.application-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genetics {
+  padding: 0px 25px;
+}
+
+
+.genetics h2 {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin: 12px 0px;
+}
+
+.value {
+  float: right;
+}
+
+canvas {
+  border: solid 1px #ddd;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+/* ==== how it works ==== */
+
+
+

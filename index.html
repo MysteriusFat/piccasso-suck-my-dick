@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title> Piccaso suck my dick </title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+  <body>
+    <header class="navbar bg-light">
+      <h2> Logo </h2>
+      <nav>
+        <ul>
+          <li class="active"> <a href="#"> Home </a> </li>
+          <li> <a href="#"> How it works? </a> </li>
+          <li> <a href="#"> Create picture </a> </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="landing">
+        <div class="title-container">
+          <h1 class="title"> Create your own pictures </h1>
+          <p class="sub-title"> with weirdos genetics algorithms </p>
+          <button class="bg-info"> How it works? </button>
+          <button class="bg-primary"> Create picture </button>
+        </div>
+        <div class="img-container">
+          <img src="img/LaMuchachaAfgana.jpg">
+          <img src="img/LaMuchachaAfgana_out.png">
+        </div>
+      </section>
+      <section id="application">
+        <div class="application-container">
+          <div class="genetics">
+            <h2> Genetics </h2>
+            <span> 
+              Changing the values of the variables can improve the performance of the algorithm, each photo may need different values
+            </span>
+            <div class="input-container">
+              <label for=population> <span class="name"> Population </span> <span class="value"> 30 </span></label>
+              <input id="population" type="range" min=2 max=70 value=30 />
+            </div>
+            <div class="input-container">
+              <label for=dna-size> <span class="name"> DNA Size </span> <span class="value"> 50 </span></label>
+              <input id="dna-size" type="range" min="10" max="80" value="50"/>
+            </div>
+            <div class="input-container">
+              <label for=mutation-ratio> <span class="name"> Mutation Ratio </span> <span class="value"> 0.4 </span></label>
+              <input id="mutation-ratio" type="range" min="1" max="100" value="40" />
+            </div>
+            <div>
+              <button class="bg-success" onclick="run()"> Start </button>
+              <button class="bg-danger" onclick="stop()"> Stop </button>
+            </div>
+          </div>
+          <div>
+            <img src="img/img_the_scream.jpg" id="scream" style="display:none">
+            <div style="display:flex;">
+              <canvas id='canvasArt' width="300" height="450" > </canvas>
+              <canvas id='canvasImg' width="300" height="450" > </canvas>
+              <canvas id="canvasWork" width="300" height="450" style="display:none"> </canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <h1> How it works </h1>
+        <p>
+          IDK
+        </p>
+      </section>
+    </main>
+
+    <script src="js/poligon.js"></script>
+    <script src="js/artists.js"></script>
+    <script src="js/piccaso-suck-my-dick.js"></script>
+    <script src="js/extras.js"></script>
+  </body>
+</html>
