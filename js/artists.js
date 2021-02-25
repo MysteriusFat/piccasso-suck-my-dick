@@ -63,7 +63,7 @@ class Artist {
     }
 
     render (ctx) {
-        ctx.clearRect(0, 0, 300, 450);
+        ctx.fillRect(0, 0, 300, 450);
         for (let i=0 ; i<this.dnaSize ; i++) {
             this.DNA[i].render(ctx);
         }
